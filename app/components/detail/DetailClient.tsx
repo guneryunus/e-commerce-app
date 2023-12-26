@@ -83,7 +83,7 @@ const DetailClient = ({product}: {product:any}) => {
                          <Button text="Ürün Sepete Ekli" small outline onClick={()=>{}} />
                         </> : <>
                         <Counter  increaseFunc={increaseFunc}  decreaseFunc={decreaseFunc} cardProduct={cardProduct}/>
-                        <Button text="Sepete Ekle" small onClick={()=>addToBasket(cardProduct)} />
+                        <Button text="Sepete Ekle" small outline onClick={()=>addToBasket(cardProduct)} />
                         </>
                     }
                   
